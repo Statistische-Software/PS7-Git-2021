@@ -1,0 +1,33 @@
+---
+title: "Problem Set X"
+author: "First Name Last Name"
+date: "Date"
+output: pdf_document
+---
+
+# Application
+
+1)
+
+Text answer for Application Q1
+
+2)
+
+```{r}
+# Code answer for Application Q2
+```
+
+# Transfer
+
+1)
+
+```{r}
+# Code answer for Transfer Q1
+```
+
+
+```{r}
+# at the end of the file, this is nice especially when you hand in a knitted
+# document
+sessionInfo()
+```

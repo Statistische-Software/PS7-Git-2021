@@ -1,0 +1,32 @@
+---
+title: "Problem Set 7 I"
+author: "Andreas Bender, Philipp Kopper, Sven Lorenz"
+date: "02 June 2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Model Math
+
+A linear model can be characterised by the following structural normal equation:
+
+\begin{equation} 
+  X^TXy = X^Ty \beta
+\end{equation} 
+
+where $X is the data or design matrix, $y$ the dependent variable and $beta$ the coefficient vector.
+
+# Fitting in R
+
+A model can be fit with the following code (using the `iris` data):
+
+```{r}
+Linear_Model <- lm(Petal.Width ~.)
+```
+
+A summary can be obtained via:
+
+```{r}
+summary( Linear_Model)
+```
